@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Settings from './pages/settings';
+import Progress from './pages/progress';
 import {
   BrowserRouter,
   Routes,
@@ -13,6 +14,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<Settings/>} />
+      <Route path="/progress" element={<Progress/>} />
     </Routes>
   </BrowserRouter>
   );
